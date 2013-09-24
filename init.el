@@ -14,6 +14,7 @@
 (require 'init-ace-jump)
 (require 'init-clojure)
 (require 'init-php)
+(require 'init-css)
 (require 'init-others)
 
 (require-package 'yaml-mode)
