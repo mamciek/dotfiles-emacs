@@ -16,6 +16,8 @@
 (require 'init-php)
 (require 'init-others)
 
+(require-package 'yaml-mode)
+
 
 ;; variables from 'customize' interface
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
