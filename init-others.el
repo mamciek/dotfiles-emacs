@@ -3,4 +3,6 @@
 
 (put 'dired-find-alternate-file 'disabled nil)
 
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 (provide 'init-others)
