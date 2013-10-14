@@ -9,6 +9,8 @@
 ;; show a marker in the left fringe for lines not in the buffer
 (setq-default indicate-empty-lines t)
 
+(setq-default show-trailing-whitespace t)
+
 ;; hide splash screen and banner
 (setq inhibit-startup-message t
       inhibit-startup-echo-area-message t)
