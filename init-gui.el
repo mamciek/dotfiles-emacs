@@ -7,7 +7,7 @@
   (scroll-bar-mode -1))
 
 ;; show a marker in the left fringe for lines not in the buffer
-(setq indicate-empty-lines t)
+(setq-default indicate-empty-lines t)
 
 ;; hide splash screen and banner
 (setq inhibit-startup-message t
