@@ -15,6 +15,7 @@
 (require 'init-clojure)
 (require 'init-php)
 (require 'init-css)
+(require 'init-flycheck)
 (require 'init-others)
 
 (require-package 'yaml-mode)
