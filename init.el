@@ -17,6 +17,7 @@
 (require 'init-css)
 (require 'init-flycheck)
 (require 'init-docker)
+(require 'init-magit)
 (require 'init-others)
 
 (require-package 'yaml-mode)
