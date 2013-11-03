@@ -17,6 +17,7 @@
 (require 'init-css)
 (require 'init-flycheck)
 (require 'init-docker)
+(require 'init-multiple-cursors)
 (require 'init-magit)
 (require 'init-others)
 
