@@ -6,6 +6,7 @@
 (require 'init-gui)
 (require 'init-editor)
 (require 'init-helm)
+(require 'init-ido)
 (require 'init-recentf)
 (require 'init-ibuffer)
 (require 'init-paredit)
@@ -20,6 +21,7 @@
 (require 'init-yasnippet)
 (require 'init-multiple-cursors)
 (require 'init-magit)
+(require 'init-projectile)
 (require 'init-others)
 
 (require-package 'yaml-mode)
