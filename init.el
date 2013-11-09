@@ -22,6 +22,7 @@
 (require 'init-multiple-cursors)
 (require 'init-magit)
 (require 'init-projectile)
+(require 'init-sunrise-commander)
 (require 'init-others)
 
 (require-package 'yaml-mode)
