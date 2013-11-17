@@ -23,6 +23,7 @@
 (require 'init-magit)
 (require 'init-projectile)
 (require 'init-sunrise-commander)
+(require 'init-vala)
 (require 'init-others)
 
 (require-package 'yaml-mode)
