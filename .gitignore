@@ -1,8 +1,5 @@
-/elpa/
-/auto-save-list/
-/eshell/
+*
+!/lisp
+!/lisp/*
 *~
 \#*
-/projectile-bookmarks.eld
-/projectile.cache
-/bookmarks
