@@ -1,5 +1,5 @@
-*
-!/lisp
-!/lisp/*
+/home/.emacs.d/*
+!/home/.emacs.d/lisp
+!/home/.emacs.d/lisp/*
 *~
 \#*
