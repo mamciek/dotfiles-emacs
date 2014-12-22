@@ -15,6 +15,7 @@
 (require 'init-ace-jump)
 (require 'init-clojure)
 (require 'init-php)
+(require 'init-web-mode)
 (require 'init-css)
 (require 'init-flycheck)
 (require 'init-docker)
