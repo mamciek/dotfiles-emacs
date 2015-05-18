@@ -4,7 +4,7 @@
 (global-set-key (kbd "M-/") 'hippie-expand)
 
 ;; auto ident after RET
-(define-key global-map (kbd "RET") 'newline-and-indent)
+;(define-key global-map (kbd "RET") 'newline-and-indent)
 
 ;; mouse yanking inserts at the point instead of location of the click
 (setq mouse-yank-at-point t)
@@ -17,6 +17,10 @@
 
 ;; highlight the matching pair when the point is over parentheses
 (show-paren-mode 1)
+
+(require-package 'aggressive-indent)
+(global-aggressive-indent-mode 1)
+;;(add-to-list 'aggressive-indent-excluded-modes 'html-mode)
 
 
 (provide 'init-editor)
