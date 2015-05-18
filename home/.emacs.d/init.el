@@ -24,7 +24,11 @@
 (require 'init-magit)
 (require 'init-projectile)
 (require 'init-haskell)
+(require 'init-go)
+(require 'init-rust)
 (require 'init-others)
+(require 'init-org)
+(require 'init-org-publish)
 
 (require-package 'yaml-mode)
 
