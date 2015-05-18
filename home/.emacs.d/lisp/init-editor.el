@@ -22,5 +22,8 @@
 (global-aggressive-indent-mode 1)
 ;;(add-to-list 'aggressive-indent-excluded-modes 'html-mode)
 
+(require-package 'expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
+
 
 (provide 'init-editor)
