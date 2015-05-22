@@ -14,6 +14,7 @@
 (require 'init-rainbow)
 (require 'init-ace-jump)
 (require 'init-clojure)
+(require 'init-groovy)
 (require 'init-php)
 (require 'init-web-mode)
 (require 'init-css)
