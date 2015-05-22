@@ -1,5 +1,6 @@
 (require-package 'helm)
 (require-package 'helm-git-grep)
+(require-package 'helm-ag)
 
 (require 'helm-config)
 (helm-mode 1)
