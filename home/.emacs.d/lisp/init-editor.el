@@ -18,10 +18,6 @@
 ;; highlight the matching pair when the point is over parentheses
 (show-paren-mode 1)
 
-(require-package 'aggressive-indent)
-(global-aggressive-indent-mode 1)
-;;(add-to-list 'aggressive-indent-excluded-modes 'html-mode)
-
 (require-package 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
 
