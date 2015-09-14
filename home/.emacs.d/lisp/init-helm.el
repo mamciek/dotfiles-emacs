@@ -1,5 +1,6 @@
 (require-package 'helm)
 (require-package 'helm-git-grep)
+(require-package 'helm-ls-git)
 (require-package 'helm-ag)
 
 (require 'helm-config)
@@ -14,5 +15,6 @@
 
 (global-set-key (kbd "C-x b") 'helm-mini)
 (global-set-key (kbd "C-c p s h") 'helm-git-grep)
+(global-set-key (kbd "<f2> l") 'helm-ls-git-ls)
 
 (provide 'init-helm)
