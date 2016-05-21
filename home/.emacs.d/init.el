@@ -14,7 +14,7 @@
 (require 'init-rainbow)
 (require 'init-ace-jump)
 (require 'init-clojure)
-(require 'init-scala)
+;(require 'init-scala)
 (require 'init-groovy)
 (require 'init-php)
 (require 'init-web-mode)

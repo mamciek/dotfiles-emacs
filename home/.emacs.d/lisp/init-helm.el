@@ -5,7 +5,6 @@
 
 (require 'helm-config)
 (helm-mode 1)
-(helm-adaptative-mode 1)
 
 (setq helm-buffers-fuzzy-matching t
       helm-recentf-fuzzy-match t)
