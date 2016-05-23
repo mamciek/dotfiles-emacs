@@ -11,6 +11,7 @@
 (require 'init-recentf)
 (require 'init-ibuffer)
 (require 'init-paredit)
+(require 'init-smartparens)
 (require 'init-uniquify)
 (require 'init-rainbow)
 (require 'init-ace-jump)
