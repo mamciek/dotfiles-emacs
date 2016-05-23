@@ -7,6 +7,7 @@
 (require 'init-editor)
 (require 'init-helm)
 (require 'init-ido)
+(require 'init-company)
 (require 'init-recentf)
 (require 'init-ibuffer)
 (require 'init-paredit)

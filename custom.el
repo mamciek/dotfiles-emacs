@@ -4,6 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ledger-post-amount-alignment-column 80)
+ '(magit-pull-arguments nil)
  '(safe-local-variable-values (quote ((buffer-file-coding-system . iso-latin-2-unix)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
