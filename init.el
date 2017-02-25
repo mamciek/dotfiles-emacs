@@ -30,6 +30,7 @@
 (require 'init-uniquify)
 (require 'init-rainbow)
 (require 'init-ace-jump)
+(require 'init-java)
 (require 'init-clojure)
 ;(require 'init-scala)
 (require 'init-groovy)
