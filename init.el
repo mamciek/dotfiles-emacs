@@ -18,6 +18,7 @@
 (require 'init-use-package)
 
 (require 'init-which-key)
+(require 'init-ag)
 (require 'init-gui)
 (require 'init-editor)
 (require 'init-helm)
