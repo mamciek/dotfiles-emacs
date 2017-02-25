@@ -1,7 +1,21 @@
 
-(add-to-list 'load-path (concat user-emacs-directory "lisp"))
+(require 'package)
+(setq package-enable-at-startup nil)
+
+(add-to-list 'package-archives
+	     '("melpa" . "http://melpa.org/packages/"))
+(add-to-list 'package-archives
+	     '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives
+	     '("org" . "http://orgmode.org/elpa/"))
+
+(package-initialize)
+
+(add-to-list 'load-path
+	     (concat user-emacs-directory "lisp"))
 
 (require 'init-elpa)
+(require 'init-use-package)
 
 (require 'init-gui)
 (require 'init-editor)
