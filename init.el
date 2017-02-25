@@ -3,11 +3,11 @@
 (setq package-enable-at-startup nil)
 
 (add-to-list 'package-archives
-	     '("melpa" . "http://melpa.org/packages/"))
+	     '("melpa" . "http://melpa.org/packages/") t)
 (add-to-list 'package-archives
-	     '("marmalade" . "http://marmalade-repo.org/packages/"))
+	     '("org" . "http://orgmode.org/elpa/") t)
 (add-to-list 'package-archives
-	     '("org" . "http://orgmode.org/elpa/"))
+	     '("marmalade" . "http://marmalade-repo.org/packages/") t)
 
 (package-initialize)
 
