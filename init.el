@@ -29,7 +29,7 @@
 (require 'init-smartparens)
 (require 'init-uniquify)
 (require 'init-rainbow)
-(require 'init-ace-jump)
+(require 'init-avy)
 (require 'init-java)
 (require 'init-clojure)
 ;(require 'init-scala)
