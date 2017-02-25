@@ -1,19 +1,18 @@
-(require-package 'helm)
-(require-package 'helm-git-grep)
-(require-package 'helm-ls-git)
-(require-package 'helm-ag)
+(use-package helm
+  :ensure t
+  :demand
+  :bind (("M-x" . helm-M-x)
+	 ("M-y" . helm-show-kill-ring)
+	 ("C-x b" . helm-mini))
+  :config
+  (require 'helm-config)
+  (helm-mode 1)
+  (setq helm-buffers-fuzzy-matching t
+	helm-recentf-fuzzy-match t))
 
-(require 'helm-config)
-(helm-mode 1)
-
-(setq helm-buffers-fuzzy-matching t
-      helm-recentf-fuzzy-match t)
-
-(global-set-key (kbd "M-x") 'helm-M-x)
-(global-set-key (kbd "M-y") 'helm-show-kill-ring)
-
-(global-set-key (kbd "C-x b") 'helm-mini)
-(global-set-key (kbd "C-c p s h") 'helm-git-grep)
-(global-set-key (kbd "<f2> l") 'helm-ls-git-ls)
+(use-package helm-projectile
+  :ensure t
+  :config
+  (helm-projectile-on))
 
 (provide 'init-helm)
