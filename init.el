@@ -18,10 +18,10 @@
 (require 'init-use-package)
 
 (require 'init-which-key)
-(require 'init-ag)
 (require 'init-gui)
 (require 'init-editor)
-(require 'init-helm)
+;(require 'init-helm)
+(require 'init-ivy)
 (require 'init-ido)
 (require 'init-company)
 (require 'init-recentf)

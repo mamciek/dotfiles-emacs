@@ -4,6 +4,6 @@
   (projectile-mode)
   (setq projectile-switch-project-action 'projectile-dired)
   (setq projectile-use-git-grep t)
-  (setq projectile-completion-system 'helm))
+  (setq projectile-completion-system 'ivy))
 
 (provide 'init-projectile)
