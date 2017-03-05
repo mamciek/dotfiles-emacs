@@ -1,5 +1,7 @@
-(require-package 'company)
-
-(add-hook 'after-init-hook 'global-company-mode)
+(use-package company
+  :ensure t
+  :config
+  (global-company-mode)
+  (setq company-tooltip-align-annotations t))
 
 (provide 'init-company)
