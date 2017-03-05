@@ -50,6 +50,7 @@
 (require 'init-others)
 (require 'init-org)
 (require 'init-org-publish)
+(require 'init-ledger)
 
 (require-package 'yaml-mode)
 
