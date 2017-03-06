@@ -1,17 +1,16 @@
-(require-package 'php-mode)
-(require-package 'fill-column-indicator)
-
 (require 'init-web-mode)
 (require 'init-company)
 (require 'init-smartparens)
 
-(defun init-php-hook ()
-  (set-fill-column 120)
-;  (fci-mode)
-  (smartparens-mode)
-  (company-mode)
-  )
-
-(add-hook 'php-mode-hook 'init-php-hook)
+(use-package php-mode
+  :ensure t
+  :config
+  (add-hook 'php-mode-hook
+	    (lambda ()
+	      (setq php-template-compatibility nil)
+	      (php-enable-psr2-coding-style)
+	      (smartparens-mode)
+	      (company-mode t)
+	      (yas-global-mode 1))))
 
 (provide 'init-php)
